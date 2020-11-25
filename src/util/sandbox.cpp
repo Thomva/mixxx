@@ -17,7 +17,7 @@
 #endif
 #endif
 
-const bool sDebug = false;
+const bool sDebug = true;
 
 QMutex Sandbox::s_mutex(QMutex::Recursive);
 bool Sandbox::s_bInSandbox = false;
